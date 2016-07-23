@@ -66,7 +66,7 @@ function heyConfirm() {
     addHey();
 
     document.getElementById('hey-message').innerHTML = dialog;
-    document.getElementById('hey-actions').innerHTML = '<button class="hey-button" onclick="heyConfirm.yes(\'' + op + '\')">Yes</button> <button class="hey-button" id="focused" onclick="heyConfirm.no()">No</button>';
+    document.getElementById('hey-actions').innerHTML = '<button class="hey-button hey-button--small" onclick="heyConfirm.yes(\'' + op + '\')">Yes</button> <button class="hey-button hey-button--small" id="focused" onclick="heyConfirm.no()">No</button>';
     document.getElementById('focused').focus();
   }
   this.no = function () {
@@ -88,7 +88,7 @@ function heyPrompt() {
 
     document.getElementById('hey-message').innerHTML = dialog;
     document.getElementById('hey-message').innerHTML += '<input class="hey-input" id="heyPrompt-value">';
-    document.getElementById('hey-actions').innerHTML = '<button class="hey-button" onclick="heyPrompt.ok(\'' + func + '\')">OK</button> <button class="hey-button" onclick="heyPrompt.cancel()">Cancel</button>';
+    document.getElementById('hey-actions').innerHTML = '<button class="hey-button hey-button--small" onclick="heyPrompt.ok(\'' + func + '\')">OK</button> <button class="hey-button hey-button--small" onclick="heyPrompt.cancel()">Cancel</button>';
     document.getElementById('heyPrompt-value').focus();
   }
   this.cancel = function () {
