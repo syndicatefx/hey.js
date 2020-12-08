@@ -1,4 +1,4 @@
-/*  hey.js -  1.0.0-beta 
+/*  hey.js -  1.0.0
  *
  *  File: hey.js
  *  Author: Paulo Nunes, http://syndicatefx.com
