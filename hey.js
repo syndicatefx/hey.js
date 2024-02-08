@@ -1,7 +1,7 @@
 /*  hey.js -  1.0.0
  *
  *  File: hey.js
- *  Author: Paulo Nunes, http://syndicatefx.com
+ *  Author: Paulo Nunes
  *  Source: https://github.com/syndicatefx/hey.js
  *  License: MIT
  */
